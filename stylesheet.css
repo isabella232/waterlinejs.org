@@ -1,0 +1,314 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2015 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Fontfabric
+ * License URL: http://www.fontspring.com/licenses/fontfabric/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('./fonts/Nexa_Free_Bold-webfont.eot');
+    src: url('./fonts/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Nexa_Free_Bold-webfont.woff2') format('woff2'),
+         url('./fonts/Nexa_Free_Bold-webfont.woff') format('woff'),
+         url('./fonts/Nexa_Free_Bold-webfont.ttf') format('truetype'),
+         url('./fonts/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Reset */
+html, body {
+text-align: left;
+font-size: 1em;
+}
+html,body,img,form,textarea,input,fieldset,div,p,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,code,button { margin: 0; padding: 0;}
+ul,li {list-style: none;}
+img {display: block;}
+a img{border: none;}
+a {text-decoration: none; font-weight: normal; font-family: inherit;}
+fieldset {border: none;}
+
+
+/* Clear mozilla/ie dotted line around active links */
+*:active,*:focus {
+  outline: none;
+  -moz-outline-style: none;
+}
+
+/* Fix heading font styles and size */
+h1,h2,h3,h4,h5,h6,h7 {font-weight: normal; font-size:1em;}
+/* End Reset */
+
+
+
+
+
+
+
+/* Base styles */
+html, body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 14px;
+}
+/* Container */
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5 {
+  font-family: 'Nexa Bold', 'Open Sans', Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 50px;
+}
+h2 {
+  font-size: 32px;
+  line-height: 34px;
+}
+h3 {
+  font-size: 26px;
+  line-height: 28px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+h5 {
+  font-size: 17px;
+  line-height: 20px;
+}
+p {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+p:last-child {
+  margin-bottom: 0px;
+}
+
+hr {
+  height: 3px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #ebebeb;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 850px;
+}
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.column {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+
+.two-column .column {
+  width: 50%;
+}
+.two-column .column.left-column {
+  padding-right: 25px;
+}
+.two-column .column.right-column {
+  padding-left: 25px;
+}
+
+.three-column .column {
+  width: 33.333333%;
+}
+.three-column .column.left-column {
+  padding-right: 20px;
+}
+.three-column .column.middle-column {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.three-column .column.right-column {
+  padding-left: 20px;
+}
+
+/* Banner */
+.banner {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.banner .logo {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner h1 {
+  color: #001C20;
+}
+.banner h5 {
+  color: #828282;
+}
+
+/* Links */
+.links {
+  text-align: center;
+}
+.links .container {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.links .link-icon {
+  display: block;
+  width: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+.links a {
+  color: #0b8fa2;
+}
+
+.link-container {
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.link-container:hover {
+  background-color: rgba(193,231,234, 0.3);
+}
+
+/* About */
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /*background: #C1E7EA;*/
+}
+.about h3 {
+  text-align: center;
+  color: #0e6471;
+  margin-bottom: 25px;
+}
+.about p {
+  text-align: justify;
+  font-size: 17px;
+  line-height: 23px;
+  color: #333333;
+}
+.about p:first-child {
+  margin-bottom: 25px;
+}
+.footer {
+  position: relative;
+  background: #41bac2;
+  background: -moz-linear-gradient(-45deg,#41bac2 0,#0b8fa2 100%);
+  background: -webkit-gradient(linear,left top,right bottom,color-stop(0,#41bac2),color-stop(100%,#0b8fa2));
+  background: -webkit-linear-gradient(-45deg,#41bac2 0,#0b8fa2 100%);
+  background: -o-linear-gradient(-45deg,#41bac2 0,#0b8fa2 100%);
+  background: -ms-linear-gradient(-45deg,#41bac2 0,#0b8fa2 100%);
+  background: linear-gradient(135deg,#41bac2 0,#0b8fa2 100%);
+}
+.footer .tentacle {
+  height: 175px;
+  position: absolute;
+  top: -100px;
+  right: -15px;
+}
+.footer .container {
+  padding-top: 50px;
+  position: relative;
+  padding-right: 60px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.footer-nav {
+  position: absolute;
+  right: 0px;
+}
+.footer h2 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: nexa_lightregular,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  padding-bottom: 10px;
+  position: relative;
+  padding-left: 38px;
+}
+.footer .built .logos {
+  padding-top: 15px;
+}
+.footer .built .logos .treeline-logo {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 150px;
+  padding-right: 12px;
+  left: -10px;
+}
+.footer .built .logos img.balderdash-logo {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 165px;
+  padding-right: 12px;
+  top: 2px;
+}
+
+
+
